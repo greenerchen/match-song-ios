@@ -35,7 +35,6 @@
 		AA9EEFB02C7F2C19008F4B6D /* MatchingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9EEFAF2C7F2C19008F4B6D /* MatchingView.swift */; };
 		AA9EEFB22C7F2C7F008F4B6D /* ShazamResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9EEFB12C7F2C7F008F4B6D /* ShazamResultView.swift */; };
 		AA9EEFBA2C805F4F008F4B6D /* PermissonRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9EEFB92C805F4F008F4B6D /* PermissonRequestView.swift */; };
-		AAA347B52C8828C00011A39D /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA347B42C8828C00011A39D /* WebView.swift */; };
 		AAB68FCD2CA56E48009ADCF4 /* MatchSongAcceptanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB68FCC2CA56E48009ADCF4 /* MatchSongAcceptanceTests.swift */; };
 		AAB68FD32CA5CA5F009ADCF4 /* ViewInspector in Frameworks */ = {isa = PBXBuildFile; productRef = AAB68FD22CA5CA5F009ADCF4 /* ViewInspector */; };
 		AACF4EA52C93E2370040C4D5 /* ShazamResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACF4EA42C93E2370040C4D5 /* ShazamResultViewModel.swift */; };
@@ -87,7 +86,6 @@
 		AA9EEFAF2C7F2C19008F4B6D /* MatchingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchingView.swift; sourceTree = "<group>"; };
 		AA9EEFB12C7F2C7F008F4B6D /* ShazamResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShazamResultView.swift; sourceTree = "<group>"; };
 		AA9EEFB92C805F4F008F4B6D /* PermissonRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissonRequestView.swift; sourceTree = "<group>"; };
-		AAA347B42C8828C00011A39D /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		AAB68FCC2CA56E48009ADCF4 /* MatchSongAcceptanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchSongAcceptanceTests.swift; sourceTree = "<group>"; };
 		AACF4EA42C93E2370040C4D5 /* ShazamResultViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShazamResultViewModel.swift; sourceTree = "<group>"; };
 		AACF4EA62C93E4D70040C4D5 /* TrackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackView.swift; sourceTree = "<group>"; };
@@ -222,7 +220,6 @@
 				AA098C2A2CA2FD6E00A0F63E /* ErrorView.swift */,
 				AA9EEFB92C805F4F008F4B6D /* PermissonRequestView.swift */,
 				AA9EEFAF2C7F2C19008F4B6D /* MatchingView.swift */,
-				AAA347B42C8828C00011A39D /* WebView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -408,7 +405,6 @@
 				AA9EEF772C7F1D86008F4B6D /* LyricsPiecesApp.swift in Sources */,
 				AA9EEFBA2C805F4F008F4B6D /* PermissonRequestView.swift in Sources */,
 				AA098C2B2CA2FD6E00A0F63E /* ErrorView.swift in Sources */,
-				AAA347B52C8828C00011A39D /* WebView.swift in Sources */,
 				AA9EEFB02C7F2C19008F4B6D /* MatchingView.swift in Sources */,
 				AA5456402C9C50D400003647 /* SHMatchedMediaItem+MatchTime.swift in Sources */,
 				AACF4EA52C93E2370040C4D5 /* ShazamResultViewModel.swift in Sources */,
