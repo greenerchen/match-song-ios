@@ -7,7 +7,6 @@
 
 import Foundation
 import ShazamKit
-import MusixmatchAPI
 @testable import ChordSync
 
 // MARK: - ShazamKit related
@@ -104,26 +103,3 @@ let trackSearchResponseStringStub = "{\"message\":{\"header\":{\"status_code\":2
 let trackSearchNoTrackResponseStringStub = "{\"message\":{\"header\":{\"status_code\":200},\"body\":{\"track_list\":[]}}}"
 
 let trackLyricsGetResponseStringStub = "{\"message\":{\"header\":{\"status_code\":200},\"body\":{\"lyrics\":{\"lyrics_body\":\"Heart beats fast\",\"lyrics_copyright\":\"Copyright powered by musixmatch\",\"script_tracking_url\":\"http:\\/\\/a.com\",\"lyrics_id\":1001,\"explicit\":0}}}}"
-
-let trackStub = Track(
-    id: 100001,
-    commontrackId: 200001,
-    trackName: "Way Maker",
-    artistName: "Leeland",
-    restricted: false,
-    explicit: false,
-    hasLyrics: true,
-    hasSubtitles: true,
-    lyricsId: 123456,
-    subtitleId: 234567,
-    lyricsBody: "You are here, moving in our midst",
-    lyricsCopyright: "Copyright",
-    backlinkUrl: "link")
-
-let lyricsStub = Lyrics(
-    id: 1001,
-    explicit: false,
-    body: "You are here, moving in our midst",
-    scriptTrackingUrl: "http://a.com",
-    copyright: "Copyright powered by musixmatch"
-)

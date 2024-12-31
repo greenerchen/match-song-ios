@@ -1,15 +1,6 @@
 {
-  "originHash" : "995332a9b6d44c7e70aa2ceba795d1b39e68b03b76f220084a7d026ee99b0689",
+  "originHash" : "7abf1dd76d62709d50ab97ba7b5907de6a95cbc813d2bf154db0688b92d85914",
   "pins" : [
-    {
-      "identity" : "musixmatch-api-ios",
-      "kind" : "remoteSourceControl",
-      "location" : "git@github.com:greenerchen/musixmatch-api-ios.git",
-      "state" : {
-        "revision" : "13d848ca3b8fd8a5c1d8a9cfda5c4b856ec7718b",
-        "version" : "1.1.0"
-      }
-    },
     {
       "identity" : "viewinspector",
       "kind" : "remoteSourceControl",
