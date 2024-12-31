@@ -7,7 +7,6 @@
 
 import SwiftUI
 import ShazamKit
-import MusixmatchAPI
 
 struct TrackActionsView: View {
     @Environment(\.openURL) var openURL

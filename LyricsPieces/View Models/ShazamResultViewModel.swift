@@ -7,7 +7,6 @@
 
 import Foundation
 import ShazamKit
-import MusixmatchAPI
 
 struct ShazamResultViewModel {
     enum TrackState: Equatable {
